@@ -1,3 +1,28 @@
+#getToSchool {
+  border: 1px solid #000000;
+  border-width: 1px;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #808080;
+  }
+
+#gtsLink {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.segmentG {
+  border: 1px solid #000000;
+  border-width: 1px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #808080;
+}
+
 body{
   font-family: Dangermode, Calibri,Arial;
   background-color: #e0e0eb;
