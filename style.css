@@ -2,7 +2,7 @@
   border: 1px solid #000000;
   border-width: 1px;
   margin: auto;
-  width: 400px;
+  width: 350px;
   text-align: center;
   color: #FFFFFF;
   background-color: #808080;
@@ -14,13 +14,16 @@ text-decoration: none;
 }
 
 .segmentG {
+  /*
   border: 1px solid #000000;
   border-width: 1px;
-  margin: auto;
-  width: 500px;
-  text-align: center;
-  color: #FFFFFF;
   background-color: #808080;
+  */
+  margin: auto;
+  width: 850px;
+  text-align: center;
+  color: #000000;
+
 }
 
 body{
@@ -43,6 +46,7 @@ body{
   display: flex;
   border: flex;
   width: 120px;
+  border: none;
 }
 
 .menuItem {
@@ -68,25 +72,64 @@ body{
 a {
   color: #000000;
   text-decoration: none;
+}
+
+ img{
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.segmentG .gpleft {
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
 
   @media screen and (max-width: 500px) {
-    # {
+    #menu {
       display: inline;
     }
 
-    #closeMenu {
-      display: block;
-    }
+  .segmentG  {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+   }
 
-    #menu {
+  #getToSchool{
+    border: 1px solid #000000;
+    border-width: 1px;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #808080;
+  }
+
+  #closeMenu {
+      display: block;
+   }
+
+  #menu {
       display: block;
       position: absolute;
-      top: 0px;
+      top: 5px;
       z-index: 99;
-      width: 95%;
-      left: 50%;
+      width: 40%;
+      left: 20%;
       transform: translate(-50%);
       background: solid;
-      background-color: #FFFFFF;
-    }
+      background-color: none;
+      border: none;
+   }
+
+  .menuItem {
+    display: flex;
+   }
+
+   img{
+    width: 150px;
+    margin-bottom: 5px;
+   }
+
   }
